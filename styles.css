@@ -137,3 +137,26 @@ footer {
     padding: 10px;
     margin-top: 20px;
 }
+
+/* Profile Container */
+.profile-container {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.profile-container img {
+    width: 200px;  /* Increased size */
+    height: 200px;
+    border-radius: 50%;  /* Circular shape */
+    border: 4px solid #b8ac95; /* Matches theme */
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+.profile-container p {
+    font-size: 22px; /* Slightly bigger for visibility */
+    color: #5c523e; /* Match the theme */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
