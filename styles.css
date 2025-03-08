@@ -11,7 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: #5C523E;
+    background: #5c523e; /* Dark Brown */
     padding: 15px 5%;
     color: white;
 }
@@ -26,58 +26,27 @@
 }
 
 .nav-links a {
-    color: #b8ac95;
+    color: #ffffff;
     text-decoration: none;
     font-size: 18px;
     transition: 0.3s;
 }
 
 .nav-links a:hover {
-    color: #000000;
-}
-
-/* Hero Section */
-.hero {
-    height: 60vh;
-    background: url('https://source.unsplash.com/1600x900/?technology,nature') no-repeat center center/cover;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    color: white;
-    padding: 20px;
-}
-
-.hero-content h1 {
-    font-size: 50px;
-    margin-bottom: 15px;
-}
-
-.btn {
-    background: #b8ac95;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    transition: 0.3s;
-}
-
-.btn:hover {
-    background: #8a7a5d;
+    color: #8a7a5d; /* Medium Brown */
 }
 
 /* Call-to-Action Section */
 .cta {
     text-align: center;
-    background: #5c523e;
+    background: #8a7a5d; /* Medium Brown */
     color: white;
     padding: 40px 20px;
 }
 
 /* Activities Box */
 .activities-box {
-    background: #f5f5f5;
+    background: #b8ac95; /* Light Brown */
     border-radius: 10px;
     padding: 30px;
     margin: 20px auto;
@@ -89,7 +58,7 @@
     text-align: center;
     font-size: 24px;
     margin-bottom: 20px;
-    color: #5c523e;
+    color: #5c523e; /* Dark Brown */
 }
 
 /* Activities Container */
@@ -101,7 +70,7 @@
 
 /* Individual Activity Card */
 .activity-card {
-    background: white;
+    background: #e1dcd2; /* Very Light Brown */
     padding: 20px;
     border-radius: 8px;
     width: 40%;
@@ -112,12 +81,12 @@
 .activity-title {
     font-size: 20px;
     margin-bottom: 10px;
-    color: #5c523e;
+    color: #5c523e; /* Dark Brown */
 }
 
 .activity-btn {
     display: inline-block;
-    background: #5c523e;
+    background: #5c523e; /* Dark Brown */
     color: white;
     padding: 10px 15px;
     text-decoration: none;
@@ -126,13 +95,13 @@
 }
 
 .activity-btn:hover {
-    background: #8a7a5d;
+    background: #8a7a5d; /* Medium Brown */
 }
 
 /* Footer */
 footer {
     text-align: center;
-    background: black;
+    background: #8a7a5d; /* Light Brown */
     color: white;
     padding: 10px;
     margin-top: 20px;
@@ -145,18 +114,16 @@ footer {
 }
 
 .profile-container img {
-    width: 200px;  /* Increased size */
+    width: 200px;
     height: 200px;
-    border-radius: 50%;  /* Circular shape */
-    border: 4px solid #b8ac95; /* Matches theme */
+    border-radius: 50%;
+    border: 4px solid #b8ac95; /* Light Brown */
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
 .profile-container p {
-    font-size: 22px; /* Slightly bigger for visibility */
-    color: #5c523e; /* Match the theme */
+    font-size: 22px;
+    color: #5c523e; /* Dark Brown */
     margin-top: 10px;
     font-weight: bold;
 }
-
-
